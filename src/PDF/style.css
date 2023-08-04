@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Noto Serif Devanagari" !important;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.MathJax svg {
+  font-size: 14px !important;
+}
+
+sup,
+sub {
+  font-size: 8px;
+}
+
+@media print {
+  .content {
+    column-count: 2;
+    /* -webkit-column-count: 2;
+        -moz-column-count: 2; */
+  }
+
+  @page {
+    margin: 1.096in 0.634in;
+    /* Adjust the margin size as per your requirement */
+  }
+}
+
+.question {
+  color: #ff00ff !important;
+}
+
+.options {
+  /*color: #300454;*/
+  color: black;
+}
+
+.singleColumnIndividualDiv {
+  margin: 2px 0px !important;
+}
+
+/* Header Styling Start */
+.Header {
+  /* border: 10px double black; */
+  display: flex;
+  background-color: #424344;
+  color: white;
+  /* border: #ff00ff  solid 7px;     */
+  /*border-style: double ;*/
+  margin-bottom: 8px;
+  border-radius: 2px;
+  /*border-spacing: 20px;*/
+  opacity: 1;
+  padding: 6px 4px;
+}
+
+.details {
+  width: 100%;
+}
+.hLine {
+  margin-top: -10px;
+}
+
+#institution_name {
+  font-family: "Bungee Spice", cursive;
+  border-radius: 2px; /* font-size: 32px; */
+  /* *color: white;*/
+  text-align: center;
+}
+
+#other_header_details {
+  display: flex;
+  justify-content: center;
+  line-height: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+#contact,
+#instituted_by,
+#pdf_name {
+  padding: 4px 16px;
+  padding-top: 10px;
+  border: 2px solid white;
+  /* border-radius: 2px; */
+  margin-right: 4px;
+  font-family: "Noto Serif";
+}
+
+.company-logo,
+#download-qr {
+  border-radius: 50px;
+
+  margin-top: 5px;
+  border: 10px double solid;
+  margin-bottom: 0px;
+}
+
+.image-and-tagline {
+  display: grid;
+  text-align: center;
+}
+
+.image-and-tagline span {
+  font-size: 4.5px;
+  font-family: "Noto Serif", serif;
+}
+
+#Footer {
+  width: 900px !important;
+}
+
+/* } */
+
+/* Footer Styling Start */
+#Footer {
+  width: 100vw;
+  background-color: yellow;
+}
+
+#Footer p {
+  margin: 0;
+  line-height: 16px;
+  text-align: initial;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-top: 8px;
+  font-size: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+mjx-container[jax="SVG"][display="true"] {
+  display: contents !important;
+}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.cbtnv2 {
+  margin: 2px;
+  background-color: #555555; /* Green */
+  order: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.blackPrint {
+  color: black !important;
+}
+.magentaPrint {
+  color: #ff0fff ffmportant;
+}
