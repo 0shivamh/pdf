@@ -98,7 +98,7 @@ function Header() {
           <img
             src={
               teacher.logo_url ||
-              "https://image.bigbooster.in/e2e217b9-ddd7-4ef8-8ceb-f01125c3d482.png"
+              logo
             }
             alt="logo"
             width="75px"
