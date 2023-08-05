@@ -36,7 +36,7 @@ const FormPage = () => {
     <>
 
 
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero center min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row">
           <form className="text-center" onSubmit={accessPdf}>
             <input
@@ -46,7 +46,7 @@ const FormPage = () => {
                 value={id}
                 onChange={(e) => setId(e.target.value)}
                 required
-            />
+            /><br/>
             <input
                 type="password"
                 placeholder="Password"
@@ -54,26 +54,26 @@ const FormPage = () => {
                 value={psw}
                 onChange={(e) => setPsw(e.target.value)}
                 required
-            />
+            /><br/>
             <input
                 type="text"
                 placeholder="end point... (optional)"
                 className="input input-bordered text-sm rounded-[5px] w-full m-2 !rounded-sm c-font1"
                 value={endpoint}
                 onChange={(e) => setEndpoint(e.target.value)}
-            />
+            /><br/>
             {
 
-              !isLoading? <button type="submit"className="btn bg-neutral-800 text-white w-full m-2 !rounded-sm c-font1 normal-case">
+              !isLoading? <button type="submit"className="btn cbtn bg-neutral-800 text-white w-full m-2 !rounded-sm c-font1 normal-case">
                 Submit
-              </button>:<button type="submit" className="btn bg-neutral-800 text-white w-full m-2 !rounded-sm c-font1 normal-case loading btn-disabled" ></button>
+              </button>:<button type="submit" className="btn cbtn bg-neutral-800 text-white w-full m-2 !rounded-sm c-font1 normal-case loading btn-disabled" ></button>
             }
           </form>
-          <div>
+          {/* <div>
             <h1 className="text-5xl font-bold">Access PDF</h1>
             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <button className="btn btn-primary">Get Started</button>
-          </div>
+          </div> */}
         </div>
       </div>
 
