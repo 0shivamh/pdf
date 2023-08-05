@@ -79,7 +79,7 @@ function PDFIndexPage() {
       }
 
       setPDFState(resData["records"]);
-      
+
       // if (offset != "") {
       //     await getDataInLoop(location.state.data.endpoint, offset);
       // }
@@ -170,7 +170,7 @@ function PDFIndexPage() {
 
   return (
     <>
-    
+
      <table>
      <Header/>
         <thead>
@@ -195,7 +195,7 @@ function PDFIndexPage() {
           </tr>
         </tfoot>
       </table>
-     
+
     </>
   );
 }
@@ -232,6 +232,7 @@ function QuestionComponent({ question }) {
               question={question}
             />
           )}
+          {/*<span>Answer: {question.answer}</span>*/}
         </div>
       </div>
     </>

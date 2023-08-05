@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 function Header() {
-  const [headerImage, setHeaderImage] = useState(["logo.png"]);
+  const [headerImage, setHeaderImage] = useState(["https://image.bigbooster.in/b3110392-f0fb-496d-a8c2-1e0878499501.png"]);
   const [organisationTitle, setOrganisationTitle] = useState([
-    "BigBooster - Best App For Online Test",
+    "Aash Publication",
   ]);
   const [instituted_by, setInstituted_by] = useState(["Teacher Name"]);
 
@@ -66,7 +66,7 @@ function Header() {
           <img
             src={
               teacher.logo_url ||
-              "https://image.bigbooster.in/e2e217b9-ddd7-4ef8-8ceb-f01125c3d482.png"
+              "https://image.bigbooster.in/b3110392-f0fb-496d-a8c2-1e0878499501.png"
             }
             alt="logo"
             width="75px"

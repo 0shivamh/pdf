@@ -29,7 +29,8 @@ sub {
 }
 
 .question {
-  color: #ff00ff !important;
+  /*color: #ff00ff !important;*/
+  color: black !important;
 }
 
 .options {
@@ -137,7 +138,7 @@ mjx-container[jax="SVG"][display="true"] {
   display: contents !important;
 }
 @media print
-{    
+{
     .no-print, .no-print *
     {
         display: none !important;
