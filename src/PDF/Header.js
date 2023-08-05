@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "./logo.jpeg"
 function Header() {
   const [headerImage, setHeaderImage] = useState(["https://image.bigbooster.in/b3110392-f0fb-496d-a8c2-1e0878499501.png"]);
   const [organisationTitle, setOrganisationTitle] = useState([
@@ -66,7 +67,7 @@ function Header() {
           <img
             src={
               teacher.logo_url ||
-              "https://image.bigbooster.in/b3110392-f0fb-496d-a8c2-1e0878499501.png"
+              logo
             }
             alt="logo"
             width="75px"

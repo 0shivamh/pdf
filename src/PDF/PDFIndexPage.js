@@ -5,6 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Swal from "sweetalert2";
 import { useLocation, useNavigate } from "react-router-dom";
+import ShortAnswer from "./ShortAnswer";
 
 const parse = require("html-react-parser");
 
@@ -188,6 +189,7 @@ function PDFIndexPage() {
           </td>
           }
           </tr>
+          <ShortAnswer answer={pdfContent} />
         </tbody>
         <tfoot>
           <tr>
