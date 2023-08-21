@@ -13,12 +13,18 @@ function ShortAnswer(props) {
                         {
                             props.answer.map((itm, index) => {
                                 return (<>
-                                    <div style={singleAnswer} className="singleAnswer">
-                                        <p style={{ fontSize: "16px", color: 'black' }}>
+                                    <div>
+                                        <p className="c-answerBox">
                                             <span>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>
                                         </p>
-                                        {/*<Solution  solution_hin={parse(itm.solution_hin)} />*/}
                                     </div>
+                                    {/*<div style={singleAnswer} className="singleAnswer">*/}
+                                    {/*    /!*<p><span>{itm.question_no}</span><span>{itm.answer}</span></p>*!/*/}
+                                    {/*    <p style={{ fontSize: "16px", color: 'black' }}>*/}
+                                    {/*        <span>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>*/}
+                                    {/*    </p>*/}
+                                    {/*    /!*<Solution  solution_hin={parse(itm.solution_hin)} />*!/*/}
+                                    {/*</div>*/}
 
                                 </>)
                             })
@@ -43,8 +49,8 @@ const answerBox = {
     flexWrap: "wrap",
     justifyContent: "start",
     justifyContentSize: "start",
-    padding: "4px",
-    margin: "4px",
+    // padding: "4px",
+    // margin: "4px",
     fontFamily:"Poppins"
 };
 const shortAnswerBody = {
@@ -57,7 +63,8 @@ const singleAnswer = {
     padding: "0px 2px",
     fontFamily: "Times New Roman",
     margin: "2px",
-    width: "69.5px",
+    width: "69px",
+    height:"30px",
     textAlign: "center",
     breakInside: "avoid",
     fontWeight: "bold",

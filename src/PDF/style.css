@@ -166,3 +166,11 @@ mjx-container[jax="SVG"][display="true"] {
 .magentaPrint {
   color: #ff0fff !important;
 }
+.c-answerBox{
+  border: 1px solid black;
+  margin: 2px;
+  width: 69px;
+  text-align: center;
+  padding-top: 4px;
+}
+

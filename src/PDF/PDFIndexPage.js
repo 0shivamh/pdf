@@ -210,7 +210,7 @@ export default PDFIndexPage;
 function QuestionComponent({ question }) {
   return (
     <>
-      <div style={{ display: "flex", alignItems: "baseline" }}>
+      <div contentEditable={true} style={{ display: "flex", alignItems: "baseline" }}>
         <div
           className="black "
           style={{ minWidth: "32px", textAlign: "center" }}
