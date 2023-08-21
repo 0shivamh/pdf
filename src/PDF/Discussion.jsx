@@ -6,10 +6,10 @@ function Discussion(props) {
     return (
         <>
             {
-                <div style={shortAnswerBody} className=" ">
+                <div style={shortAnswerBody} className="">
                     <hr style={{ borderTop: '1px dashed black', color: "transparent" }} />
                     <p style={fontStyle} contentEditable={true}>Discussion</p>
-                    <div style={answerBox} className="answerBox content">
+                    <div style={answerBox} className="answerBox c-content content">
                         {
                             props.answer.map((itm, index) => {
                                 return (<>

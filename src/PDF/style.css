@@ -19,7 +19,9 @@ sub {
   display: inline-flex;
 }
 
-
+.c-content{
+  column-count: 2;
+}
 @media print {
   .content {
     column-count: 2;
