@@ -14,8 +14,8 @@ function Discussion(props) {
                             props.answer.map((itm, index) => {
                                 return (<>
                                     <div style={{display:"flex"}}>
-                                        <p >
-                                            <span>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>
+                                        <p style={{display:"flex"}}>
+                                            <span style={{marginRight:"4px"}}>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>
                                         </p>
                                         <Solution  solution_hin={parse(itm.solution_hin)} />
                                     </div>
