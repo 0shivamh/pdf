@@ -39,13 +39,13 @@ const fontStyle = {
     fontWeight:"900"
 };
 const answerBox = {
-    // display: "flex",
-    // flexWrap: "wrap",
-    // justifyContent: "start",
-    // justifyContentSize: "start",
-    // padding: "4px",
-    // margin: "4px",
-    // fontFamily:"Poppins"
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "start",
+    justifyContentSize: "start",
+    padding: "4px",
+    margin: "4px",
+    fontFamily:"Poppins"
 };
 const shortAnswerBody = {
     // breakInside: "avoid",

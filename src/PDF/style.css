@@ -28,7 +28,7 @@ sub {
   }
 
   @page {
-    margin: 1.096in 0.634in;
+    /*margin: 1.096in 0.634in;*/
     /* Adjust the margin size as per your requirement */
   }
 }
@@ -129,6 +129,7 @@ sub {
 }
 
 #Footer p {
+  margin: 0;
   line-height: 16px;
   text-align: initial;
   font-weight: bold;
