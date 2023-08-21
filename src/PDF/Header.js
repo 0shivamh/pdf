@@ -86,9 +86,9 @@ function Header() {
             <span contentEditable="true" id="pdf_name">
               PDF Name
             </span>
-            <span contentEditable="true" id="contact">
-              Contact Details
-            </span>
+            {/*<span contentEditable="true" id="contact">*/}
+            {/*  Contact Details*/}
+            {/*</span>*/}
             <span contentEditable="true" id="instituted_by">
               {instituted_by}
             </span>
