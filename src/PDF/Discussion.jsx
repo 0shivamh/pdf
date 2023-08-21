@@ -9,22 +9,24 @@ function Discussion(props) {
                 <div style={shortAnswerBody} className="">
                     <hr style={{ borderTop: '1px dashed black', color: "transparent" }} />
                     <p style={fontStyle} contentEditable={true}>Discussion</p>
-                    <div style={answerBox} className="answerBox c-content content">
+                    <div  className="container-content ">
                         {
                             props.answer.map((itm, index) => {
                                 return (<>
-                                    <div>
-                                        <p style={{ fontSize: "16px", color: 'black',display:"inline-block"  }}>
+                                    <div style={{display:"flex"}}>
+                                        <p >
                                             <span>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>
                                         </p>
                                         <Solution  solution_hin={parse(itm.solution_hin)} />
                                     </div>
-
                                 </>)
                             })
                         }
                     </div>
+
+
                 </div>
+
             }
         </>
     );

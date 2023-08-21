@@ -18,9 +18,19 @@ sub {
   max-width: 440px;
   display: inline-flex;
 }
+.Solution img{
+  max-width: 440px;
+
+}
 
 .c-content{
   column-count: 2;
+}
+.container-content {
+  column-count: 2;
+  column-width: auto;
+  /*display: flex;*/
+  justify-content: space-between;
 }
 @media print {
   .content {
@@ -119,7 +129,7 @@ sub {
 }
 
 #Footer {
-  width: 900px !important;
+  width: 100% !important;
 }
 
 /* } */

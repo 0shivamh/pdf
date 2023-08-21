@@ -52,6 +52,7 @@ const fontStyle = {
 const answerBox = {
     display: "flex",
     flexWrap: "wrap",
+    marginBottom:"30px",
     justifyContent: "start",
     justifyContentSize: "start",
     // padding: "4px",
