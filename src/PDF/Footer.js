@@ -4,7 +4,7 @@ function Footer() {
       {/* <hr style={{ margin: "0px 0px 1px 0px", color: "yellow" }} /> */}
       <div
         className="magenta"
-        style={{ backgroundColor: "#ff00ff", color: "white" }}
+        style={{ backgroundColor: "#424344", color: "white" }}
         id="Footer"
         contentEditable={true}
       >
