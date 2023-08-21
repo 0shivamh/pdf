@@ -129,7 +129,6 @@ sub {
 }
 
 #Footer p {
-  margin: 0;
   line-height: 16px;
   text-align: initial;
   font-weight: bold;

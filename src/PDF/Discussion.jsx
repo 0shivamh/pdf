@@ -6,7 +6,7 @@ function Discussion(props) {
     return (
         <>
             {
-                <div style={shortAnswerBody} className="shortAnswerBody ">
+                <div style={shortAnswerBody} className=" ">
                     <hr style={{ borderTop: '1px dashed black', color: "transparent" }} />
                     <p style={fontStyle} contentEditable={true}>Discussion</p>
                     <div style={answerBox} className="answerBox content">
@@ -48,7 +48,8 @@ const answerBox = {
     // fontFamily:"Poppins"
 };
 const shortAnswerBody = {
-    breakInside: "avoid",
+    // breakInside: "avoid",
+    marginTop:"10px",
     opacity: 1,
     width: "100%",
 };

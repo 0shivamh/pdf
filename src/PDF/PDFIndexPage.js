@@ -173,7 +173,6 @@ function PDFIndexPage() {
 
   return (
     <>
-
      <table>
      <Header/>
         <thead>

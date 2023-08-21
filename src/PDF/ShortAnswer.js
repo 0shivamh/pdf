@@ -1,8 +1,10 @@
 import Solution from "./Solution";
+import Discussion from "./Discussion";
+import React from "react";
 const parse = require("html-react-parser");
 
 function ShortAnswer(props) {
-    var solution_hin = props.solution_hin
+    var pdfContent = props
     return (
         <>
             {
@@ -29,8 +31,11 @@ function ShortAnswer(props) {
                                 </>)
                             })
                         }
+
                     </div>
+
                 </div>
+
             }
         </>
     );
