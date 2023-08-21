@@ -14,6 +14,11 @@ sup,
 sub {
   font-size: 8px;
 }
+.Solution {
+  max-width: 440px;
+  display: inline-flex;
+}
+
 
 @media print {
   .content {
@@ -148,7 +153,7 @@ mjx-container[jax="SVG"][display="true"] {
 .cbtnv2 {
   margin: 2px;
   background-color: #555555; /* Green */
-  order: none;
+  border: none;
   color: white;
   text-align: center;
   text-decoration: none;

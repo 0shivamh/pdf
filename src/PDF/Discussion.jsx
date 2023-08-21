@@ -1,23 +1,23 @@
 import Solution from "./Solution";
 const parse = require("html-react-parser");
 
-function ShortAnswer(props) {
+function Discussion(props) {
     var solution_hin = props.solution_hin
     return (
         <>
             {
-                <div style={shortAnswerBody} className="shortAnswerBody">
+                <div style={shortAnswerBody} className="shortAnswerBody ">
                     <hr style={{ borderTop: '1px dashed black', color: "transparent" }} />
-                    <p style={fontStyle} contentEditable={true}>Answer Key</p>
-                    <div style={answerBox} className="answerBox">
+                    <p style={fontStyle} contentEditable={true}>Discussion</p>
+                    <div style={answerBox} className="answerBox content">
                         {
                             props.answer.map((itm, index) => {
                                 return (<>
-                                    <div style={singleAnswer} className="singleAnswer">
-                                        <p style={{ fontSize: "16px", color: 'black' }}>
+                                    <div>
+                                        <p style={{ fontSize: "16px", color: 'black',display:"inline-block"  }}>
                                             <span>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>
                                         </p>
-                                        {/*<Solution  solution_hin={parse(itm.solution_hin)} />*/}
+                                        <Solution  solution_hin={parse(itm.solution_hin)} />
                                     </div>
 
                                 </>)
@@ -39,13 +39,13 @@ const fontStyle = {
     fontWeight:"900"
 };
 const answerBox = {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "start",
-    justifyContentSize: "start",
-    padding: "4px",
-    margin: "4px",
-    fontFamily:"Poppins"
+    // display: "flex",
+    // flexWrap: "wrap",
+    // justifyContent: "start",
+    // justifyContentSize: "start",
+    // padding: "4px",
+    // margin: "4px",
+    // fontFamily:"Poppins"
 };
 const shortAnswerBody = {
     breakInside: "avoid",
@@ -53,7 +53,7 @@ const shortAnswerBody = {
     width: "100%",
 };
 const singleAnswer = {
-    border: "1px solid black",
+    // border: "1px solid black",
     padding: "0px 2px",
     fontFamily: "Times New Roman",
     margin: "2px",
@@ -63,4 +63,4 @@ const singleAnswer = {
     fontWeight: "bold",
     borderRadius: "2px"
 };
-export default ShortAnswer;
+export default Discussion;
