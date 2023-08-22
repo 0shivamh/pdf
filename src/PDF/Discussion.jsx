@@ -15,7 +15,7 @@ function Discussion(props) {
                                 return (<>
                                     <div style={{display:"flex"}}>
                                         <p style={{display:"flex"}}>
-                                            <span style={{marginRight:"4px"}}>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>
+                                            <span style={{marginRight:"4px"}}>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer.toLowerCase()})</span>
                                         </p>
                                         <Solution  solution_hin={parse(itm.solution_hin)} />
                                     </div>

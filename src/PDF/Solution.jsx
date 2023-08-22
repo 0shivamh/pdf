@@ -4,7 +4,7 @@ function Solution(props) {
     var solution_hin = props.solution_hin
     return (
         <>
-            <div className="Solution bg-transparent	" >
+            <div contentEditable={true} className="Solution bg-transparent	" >
                 <div>
                     <p style={{ fontSize: props.fontSize + "px", padding: "0px 2px 0px 8px" }} >{solution_hin}</p>
                 </div>
