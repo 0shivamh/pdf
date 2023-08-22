@@ -17,7 +17,7 @@ function ShortAnswer(props) {
                                 return (<>
                                     <div>
                                         <p className="c-answerBox">
-                                            <span>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer.toLowerCase()})</span>
+                                            <span>{itm.question_no}</span> (<span style={{ fontSize: "14px" }}>{itm.answer})</span>
                                         </p>
                                     </div>
                                     {/*<div style={singleAnswer} className="singleAnswer">*/}
