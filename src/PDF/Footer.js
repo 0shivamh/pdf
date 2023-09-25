@@ -10,7 +10,7 @@ function Footer() {
       >
         <p style={{ padding: "6px 6px 2px 16px", textAlign: "center" }}>
           {/*बिहार पुलिस का Online Test लगाने के लिए Bigbooster App Install करें*/}
-            Bihar STET का Online Test लगाने के लिए Bigbooster App Install करें
+          Bihar SSC Inter Level का Online Test लगाने के लिए Bigbooster App Install करें
         </p>
       </div>
     </>
